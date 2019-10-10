@@ -10,4 +10,4 @@
 
 (5) grep Aug /var/log/messages 在文件 '/var/log/messages'中查找关键词"Aug" 
 
-(6) ubuntu18 配置静态IP： '参考1' [website](https://blog.csdn.net/qq_34889607/article/details/824974)，'参考2' [website](https://www.jianshu.com/p/2b401aa0052d)
+(6) ubuntu18 配置静态IP： '参考1' [website](https://blog.csdn.net/qq_34889607/article/details/82497405)，'参考2' [website](https://www.jianshu.com/p/2b401aa0052d)
