@@ -12,4 +12,4 @@
 
 (6) ubuntu18 配置静态IP： '参考1' [website](https://blog.csdn.net/qq_34889607/article/details/82497405)，'参考2' [website](https://www.jianshu.com/p/2b401aa0052d)
 
-（7）ubuntu16 安装显卡驱动： [链接](https://www.cnblogs.com/myblog1993/p/9284071.html)
+(7) ubuntu16 安装显卡驱动： [链接](https://www.cnblogs.com/myblog1993/p/9284071.html)
