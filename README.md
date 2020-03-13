@@ -15,3 +15,5 @@
 (7) ubuntu16 安装显卡驱动： [链接](https://www.cnblogs.com/myblog1993/p/9284071.html)
 
 (8) grep -r "查询内容"  文件目录    #这样查询出来的包括文件名+内容
+
+（９） dpkg -L package 查看安装包安装的信息(apt-get install)
