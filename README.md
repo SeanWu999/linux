@@ -1,6 +1,6 @@
 # linux命令
 
-(1) sudo chmod -R 777 wuzhe/  解锁wuzhe下的权限，777是最大的
+(1) sudo chmod -R 777 wuzhe/  解锁wuzhe下的权限，777是最大的       chmod u+x filename 使文件有可执行权限
 
 (2) python3 编译pyc python3 -m compileall -b .
 
@@ -17,3 +17,13 @@
 (8) grep -r "查询内容"  文件目录    #这样查询出来的包括文件名+内容
 
 （９） dpkg -L package 查看安装包安装的信息(apt-get install)
+
+(10) 在目录下匹配 find . |xargs grep -ni -s -i --color "xxxxxx"
+
+(11) 终端terminal 输出到log中 在后面加上  >log.txt 2>&1
+
+(12) 对数据集(或文件)创建文件关联 ln -s /home/user/data/VOC0712_trainval_lmdb trainval_lmdb (trainval_lmdb是当前目录下创建的文件夹，通往数据集)
+
+(13) g++ 编译时连接caffe库　g++ main.cpp -I /home/user/wuzhe/caffe/include/
+
+(14) 单个文件编译 g++ test.cpp -o test
