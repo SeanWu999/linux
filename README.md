@@ -27,3 +27,5 @@
 (13) g++ 编译时连接caffe库　g++ main.cpp -I /home/user/wuzhe/caffe/include/
 
 (14) 单个文件编译 g++ test.cpp -o test
+
+(15) 历史命令查询 history |grep "xxxxx"
