@@ -16,7 +16,7 @@
 
 (8) grep -r "查询内容"  文件目录    #这样查询出来的包括文件名+内容
 
-（９） dpkg -L package 查看安装包安装的信息(apt-get install)
+(9) dpkg -L package 查看安装包安装的信息(apt-get install)
 
 (10) 在目录下匹配 find . |xargs grep -ni -s -i --color "xxxxxx"
 
@@ -29,3 +29,9 @@
 (14) 单个文件编译 g++ test.cpp -o test
 
 (15) 历史命令查询 history |grep "xxxxx"
+
+(16) 命令行挂载外部设备 
+
+ls /dev/sd* 查看是否有设备 
+
+mount /dev/sda1 /mnt 把U盘挂载到mnt上 (mount用于挂载Linux系统外的文件)
