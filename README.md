@@ -64,3 +64,15 @@ git log -p dev..origin/dev   示例2：查看本地dev与远端origin/dev的版�
 git merge origin/master  示例1：合并远端分支origin/master到当前分支
 
 git merge origin/dev 示例2：合并远端分支origin/dev到当前分支
+
+(3) 提交代码到分支
+
+ git status //命令用于显示工作目录和暂存区的状态
+ 
+ git add . //命令用于将工作区中所有未跟踪或者修改的文件添加到暂存区,不包含删除的文件(注意最后的"."前面有个空格, .代表当前目录)
+  
+ git commit - m "xxx" //命令用于把暂存区的文件提交到本地 （xxx为本次提交代码的备注）
+  
+ git pull origin dev //命令用于远程master的代码下拉到本地分支dev,如果有冲突先解决冲突然后再重复 2 和3的步骤
+  
+ git push origin dev //命令用于把本地代码提交到远程分支
