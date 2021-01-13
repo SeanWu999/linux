@@ -36,6 +36,20 @@ ls /dev/sd* 查看是否有设备
 
 mount /dev/sda1 /mnt 把U盘挂载到mnt上 (mount用于挂载Linux系统外的文件)
 
+(17) linux内核
+
+查询内核: cat /boot/grub/grub.cfg |grep "menuentry "
+
+设置默认启动内核: grub-set-default 'Ubuntu, with Linux 5.4.0-42-generic'
+
+查看默认启动内核: grub-editenv list
+
+查看内核包: dpkg --get-selections | grep linux-image
+
+删除内核: sudo apt-get remove linux-image-5.4.0-59-generic
+
+移除内核: sudo dpkg -P linux-image-unsigned-5.4.0-59-generic
+
 
 
 
