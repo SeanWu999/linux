@@ -90,3 +90,11 @@ git merge origin/dev 示例2：合并远端分支origin/dev到当前分支
  git pull origin dev //命令用于远程master的代码下拉到本地分支dev,如果有冲突先解决冲突然后再重复 2 和3的步骤
   
  git push origin dev //命令用于把本地代码提交到远程分支
+ 
+ (4) 拉取代码覆盖本地
+ 
+ git fetch --all
+ 
+ git reset --hard origin/master
+ 
+ git pull
