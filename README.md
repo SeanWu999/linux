@@ -93,8 +93,8 @@ git merge origin/dev 示例2：合并远端分支origin/dev到当前分支
  
  (4) 拉取代码覆盖本地
  
- git fetch --all
+ git fetch --all #取回远程库的所有修改
  
  git reset --hard origin/master
  
- git pull
+ git pull #把远程库拉取到本地库
