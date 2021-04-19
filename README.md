@@ -98,3 +98,7 @@ git merge origin/dev 示例2：合并远端分支origin/dev到当前分支
  git reset --hard origin/master
  
  git pull #把远程库拉取到本地库
+
+（5）撤销commit
+ git reset --soft HEAD^
+
